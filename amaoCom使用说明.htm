@@ -1,0 +1,329 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";}
+h3
+	{mso-style-link:"标题 3 Char";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:13.5pt;
+	font-family:宋体;
+	font-weight:bold;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:宋体;}
+code
+	{font-family:宋体;}
+pre
+	{mso-style-link:"HTML 预设格式 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:宋体;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-link:"标题 3";
+	font-family:宋体;
+	font-weight:bold;}
+span.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-link:"HTML 预设格式";
+	font-family:宋体;}
+span.hljs-number
+	{mso-style-name:hljs-number;}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ZH-CN style='text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=left style='margin-bottom:13.5pt;text-align:left;
+line-height:16.8pt;background:white'><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>&nbsp;</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:13.5pt;text-align:left;
+background:white'><span style='font-size:24.0pt;font-family:宋体;color:#333333'>阿猫串口调试助手使用说明：</span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:13.5pt;text-align:left;
+line-height:16.8pt;background:white'><span style='font-family:宋体;color:#333333'>运行环境：</span><b><span
+lang=EN-US style='font-family:"微软雅黑","sans-serif";color:#333333;background:
+white'>Microsoft .NET Framework 3.5</span></b><b><span style='font-family:"微软雅黑","sans-serif";
+color:#333333;background:white'>及以上</span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:13.5pt;text-align:left;
+line-height:16.8pt;background:white'><span style='font-family:宋体;color:#333333'>阿猫串口调试助手，可以说是一款更适合嵌入式开发工程师开发调试使用的串口调试助手，是阿猫在项目开发过程中遇到各种问题解决方法与开发需求相结合而开发的一个实用简洁高效的串口调试助手，不仅征集网友意见，而且会更新发布开源学习资料等，可以帮助没有串口开发基础的人或新手调试编写一些自己的串口工具。</span></p>
+
+<p class=MsoNormal align=left style='margin-top:21.0pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;background:white'><span
+style='font-size:13.5pt;font-family:宋体;color:#333333'>一、功能简介：</span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><span style='font-family:宋体;color:#333333'>阿猫串口调试助手除了具备普通串口的功能外，如</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>COM</span><span
+style='font-family:宋体;color:#333333'>口、波特率、数据位、校验位、停止位的设置，数据</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>HEX</span><span
+style='font-family:宋体;color:#333333'>和</span><span lang=EN-US style='font-family:
+"Verdana","sans-serif";color:#333333'>ascii</span><span style='font-family:
+宋体;color:#333333'>码切换发送及显示，数据保存等外，还加入了更实用的过滤高亮、查找高亮，常用</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'>CRC</span><span
+style='font-family:宋体;color:#333333'>校验，数字参考时钟，发送后任意字节可选按步长自动增加，自增发送时可选校验码自动校验，实时发送文本数据，效率快捷键等一系列特别实用的功能，使您的开发调试更加方便。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>多种实用的功能方法均来自网友的推荐，阿猫串口也在根据网友的需要不断更新新的特色功能。</span></p>
+
+<p class=MsoNormal align=left style='margin-top:21.0pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;background:white'><span
+style='font-size:13.5pt;font-family:宋体;color:#333333'>二、软件界面</span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'><img width=961 height=628 id="图片 12"
+src="amaoCom使用说明.files/image001.jpg" alt="amao_works_1.png"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:21.0pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;background:white'><span
+style='font-size:13.5pt;font-family:宋体;color:#333333'>三、</span><span
+style='font-size:13.5pt;font-family:"Verdana","sans-serif";color:#333333'> </span><span
+style='font-size:13.5pt;font-family:宋体;color:#333333'>特色功能介绍</span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>1.</span></b><b><span style='font-family:宋体;color:#333333'>接收数据过滤并实时高亮</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>大部分串口调试助手虽然有过滤功能，但是并没高亮功能，例如在接收的一串十六进制的数据中，查找一两个需要的字节，光靠眼睛是非常吃力的，鉴于此，阿猫增加了高亮功能，可以随时显示要查找数据的位置，缓解眼疲劳。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=478 height=226 id="图片 11" src="amaoCom使用说明.files/image002.png"
+alt="amao_works_1"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>2.</span></b><b><span style='font-family:宋体;color:#333333'>查找并高亮数据</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>阿猫串口提供了一种查找数据的方式，收到一些数据后，在</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>“</span><span
+style='font-family:宋体;color:#333333'>过滤帧关键字</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'>”</span><span
+style='font-family:宋体;color:#333333'>里输入要查找的内容，点击查找关键字，会将要查找的关键字用颜色标识高亮出来，每查找一次，颜色变换一次，最多同时可以用七种不同的颜色标识。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=625 height=285 id="图片 10" src="amaoCom使用说明.files/image003.png"
+alt="amao_works_2"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>3.</span></b><b><span style='font-family:宋体;color:#333333'>数字参考时钟</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>一个在调试过程中可能会用到的系统时钟，精确到毫秒，提供开始时间和结束时间，自动计算间隔时长，可作为参考时间。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=445 height=217 id="图片 9" src="amaoCom使用说明.files/image004.png"
+alt="amao_works_3"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>4.</span></b><b><span style='font-family:宋体;color:#333333'>实用发送后自增发送</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>自增发送是指，发送一串十六进制数据后，根据需要可以自由设置从哪一个字节开始自动增加，以及所增加的步长值，周期可以设置连续的</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>1~4</span><span
+style='font-family:宋体;color:#333333'>个字节，且需注意，低字节在前，高字节在后。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=318 height=178 id="图片 8" src="amaoCom使用说明.files/image005.png"
+alt="amao_works_4"><br>
+</span><span style='font-family:宋体;color:#333333'>示例：</span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;background:#F6F6F6;
+word-break:break-all'><span style='font-size:11.0pt;font-family:宋体;color:#657B83'>命令：</span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#2AA198'>0</span><span lang=EN-US style='font-size:11.0pt;font-family:
+"Verdana","sans-serif";color:#657B83'>D </span><span lang=EN-US
+style='font-size:11.0pt;font-family:"Verdana","sans-serif";color:#2AA198'>55</span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#657B83'> FF </span><span lang=EN-US style='font-size:11.0pt;font-family:
+"Verdana","sans-serif";color:#2AA198'>00</span><span lang=EN-US
+style='font-size:11.0pt;font-family:"Verdana","sans-serif";color:#657B83'> </span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#2AA198'>00</span><span lang=EN-US style='font-size:11.0pt;font-family:
+"Verdana","sans-serif";color:#657B83'> </span><span lang=EN-US
+style='font-size:11.0pt;font-family:"Verdana","sans-serif";color:#2AA198'>01</span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#657B83'> </span><span lang=EN-US style='font-size:11.0pt;font-family:
+"Verdana","sans-serif";color:#2AA198'>00</span><span lang=EN-US
+style='font-size:11.0pt;font-family:"Verdana","sans-serif";color:#657B83'> </span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#2AA198'>00</span><span lang=EN-US style='font-size:11.0pt;font-family:
+"Verdana","sans-serif";color:#657B83'> </span><span lang=EN-US
+style='font-size:11.0pt;font-family:"Verdana","sans-serif";color:#2AA198'>00</span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#657B83'> </span><span lang=EN-US style='font-size:11.0pt;font-family:
+"Verdana","sans-serif";color:#2AA198'>01</span><span lang=EN-US
+style='font-size:11.0pt;font-family:"Verdana","sans-serif";color:#657B83'> </span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#2AA198'>0</span><span lang=EN-US style='font-size:11.0pt;font-family:
+"Verdana","sans-serif";color:#657B83'>A </span><span lang=EN-US
+style='font-size:11.0pt;font-family:"Verdana","sans-serif";color:#2AA198'>28</span><span
+lang=EN-US style='font-size:11.0pt;font-family:"Verdana","sans-serif";
+color:#657B83'> B4 B4</span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><span style='font-family:宋体;color:#333333'>从第</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>3</span><span
+style='font-family:宋体;color:#333333'>个字节开始，周期为两个字节，步长值为</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'>1</span><span
+style='font-family:宋体;color:#333333'>，自增发送变化结果如下：</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=710 height=582 id="图片 7" src="amaoCom使用说明.files/image006.png"
+alt="amao_works_5"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>5.</span></b><b><span style='font-family:宋体;color:#333333'>数据显示格式控制</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>数据发送接收的格式可以根据需要自由选择，一看便可明白：</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=357 height=405 id="图片 6" src="amaoCom使用说明.files/image007.png"
+alt="amao_works_6"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>6.</span></b><b><span style='font-family:宋体;color:#333333'>自增发送时自动校验</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>因为自增发送时发送的数据在不断变化，因此如果在命令末尾添加了一定方式的校验，那么校验值跟随变化也显得非常必要，阿猫串口默认最后几位为校验字节，请务必首先根据自己的校验方式校验一次以确定最后几个字节位为校验字节。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>该功能需要自增发送的同时勾选</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>“</span><span
+style='font-family:宋体;color:#333333'>自增发送区自动校验</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'>”</span><span
+style='font-family:宋体;color:#333333'>，请看示例。</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=156 height=184 id="图片 5" src="amaoCom使用说明.files/image008.png"
+alt="amao_works_7"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><span style='font-family:宋体;color:#333333'>示例：</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>发送区</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'>2</span><span
+style='font-family:宋体;color:#333333'>，</span><span lang=EN-US style='font-family:
+"Verdana","sans-serif";color:#333333'>0D 55&nbsp;</span><span lang=EN-US
+style='font-size:10.0pt;font-family:Consolas;color:#C7254E;background:#F6F6F6'>1A
+01</span><span lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>&nbsp;00
+01 00 00 00 01&nbsp;</span><span lang=EN-US style='font-size:10.0pt;font-family:
+Consolas;color:#C7254E;background:#F6F6F6'>8E D8 DA 2F</span><span
+style='font-family:宋体;color:#333333'>，</span><span lang=EN-US style='font-family:
+"Verdana","sans-serif";color:#333333'><br>
+</span><span lang=EN-US style='font-size:10.0pt;font-family:Consolas;
+color:#C7254E;background:#F6F6F6'>1A 01</span><span style='font-family:宋体;
+color:#333333'>自增字节，</span><span lang=EN-US style='font-size:10.0pt;font-family:
+Consolas;color:#C7254E;background:#F6F6F6'>8E D8 DA 2F</span><span
+style='font-family:宋体;color:#333333'>为</span><span lang=EN-US style='font-family:
+"Verdana","sans-serif";color:#333333'>CRC32</span><span style='font-family:
+宋体;color:#333333'>校验结果，请注意观察变化。</span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'><img width=859 height=540 id="图片 4"
+src="amaoCom使用说明.files/image009.png" alt="amao_works_8"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>7.</span></b><b><span style='font-family:宋体;color:#333333'>校验方式选择</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+</span><span style='font-family:宋体;color:#333333'>有和校验、</span><span lang=EN-US
+style='font-family:"Verdana","sans-serif";color:#333333'>CRC8</span><span
+style='font-family:宋体;color:#333333'>、</span><span lang=EN-US style='font-family:
+"Verdana","sans-serif";color:#333333'>CRC16</span><span style='font-family:
+宋体;color:#333333'>、</span><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>CRC32</span><span style='font-family:宋体;color:#333333'>四种校验方式可选，校验后，可以根据需要的字节数进行显示，如，仅低字节，或者低高字节，高低字节等方式。点击更多校验类型，独立设置，自动保存。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=137 height=170 id="图片 3" src="amaoCom使用说明.files/image010.png"
+alt="amao_works_9"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'><img width=434 height=363 id="图片 2"
+src="amaoCom使用说明.files/image011.png" alt="amao_works_10"></span></p>
+
+<p class=MsoNormal align=left style='margin-top:13.5pt;margin-right:0cm;
+margin-bottom:13.5pt;margin-left:0cm;text-align:left;line-height:16.8pt;
+background:white'><b><span lang=EN-US style='font-family:"Verdana","sans-serif";
+color:#333333'>8.</span></b><b><span style='font-family:宋体;color:#333333'>效率快捷键和串口延时</span></b><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+a.</span><span style='font-family:宋体;color:#333333'>串口延时是为了匹配不同的数据长度，以接收完整的数据包，软件默认延时</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'>20ms</span><span
+style='font-family:宋体;color:#333333'>。</span><span lang=EN-US style='font-family:
+"Verdana","sans-serif";color:#333333'><br>
+b.</span><span style='font-family:宋体;color:#333333'>追求效率的朋友就不用多说了，怎么顺手怎么来，在高级里面有常用的快捷键介绍。</span><span
+lang=EN-US style='font-family:"Verdana","sans-serif";color:#333333'><br>
+<img width=535 height=342 id="图片 1" src="amaoCom使用说明.files/image012.png"
+alt="amao_works_11"></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
